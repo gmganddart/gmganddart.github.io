@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html>
    <head>
+      <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+      <script defer src="https://pyscript.net/latest/pyscript.js"></script>
       <title>Dart site</title>
-      <link rel="stylesheet" href="../global/g.css">
+      <link rel="stylesheet" href="../../global/g.css">
       <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
    </head>
    <style>
-    body {margin:0;background-image: url("C:\Users\cpj20\Documents\GitHub\gmganddart.github.io\Web\Dart\images\background.png");background-repeat: no-repeat;background-size: cover;}
+    body {margin:0;background-image: url("images/background1.jpg");background-repeat: no-repeat;background-size: cover;}
  </style>
  <body>
-    <h1>Dart Site of all things Dartoes</h1>
-    <p>This is my website. Hello gmg</p>
+    <py-script>
+        print('hello world')
+    </py-script>
+    <nav id="navigbar"></nav>
+    <h1 style="color: blueviolet; text-align: center;font: lighter;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Welcome to <br>Dart's Palace</h1>
+<p id="requestExample"></p>
  </body>
 
-<nav id="navigbar"></nav>
 
 
-<footer id="footer"></footer>
-<script src="../global/data.js"></script><script src="https://kit.fontawesome.com/b457945b5f.js" crossorigin="anonymous"></script>
+<script src="../../global/data.js"></script><script src="https://kit.fontawesome.com/b457945b5f.js" crossorigin="anonymous"></script>
+<script>
+fetch("http://thorpepark.com")
+    .then(response => {
+      document.getElementById('requestExample').innerHTML=response.text()
+    });
+</script>
 </body>
 </html>
