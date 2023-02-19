@@ -2,16 +2,18 @@
 <html>
    <head>
       <title>gmg's Info Web</title>
+      <link rel="stylesheet" href="../../global/g.css">
       <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
       <link rel="icon" type="image/x-icon" href="https://gmganddart.github.io/Web/Gmg/Images/favicon.png">
       <style>
-         body {text-align:center;text-decoration:none;color:snow;background-color: #111;margin:0;background-image: url("Images/background2.png");background-repeat: no-repeat;background-size: cover;font-family: "Lato", sans-serif;}
+         body {text-align:center;text-decoration:none;color:snow;background-color: #111;margin:0;background-image: url("Images/background2.png");background-repeat: no-repeat;background-size: cover;}
          .button {color:white;background-color:black;border-color:transparent;padding: 6px 6px;text-align: center;text-decoration: none;display: inline-block;font-size: 10px;cursor: pointer;}
          .button:hover {transition:0.3;border-color: green;background-color:rgb(25, 24, 24);color:aquamarine;}
       </style>
    </head>
 <body>
-<div style="overflow:auto;">
+<nav id="navigbar"></nav>
+<div style="overflow:auto;font-family: 'Lato' sans-serif;">
 <table width="100%">
    <tr>
       <th>Websites</th>
@@ -38,7 +40,8 @@ else alert("This password is incorrect. Try again.")}<br>
 </p>
 <button onclick="myFunction()">Copy Code</button>
 </div>
-<script src="https://kit.fontawesome.com/b457945b5f.js" crossorigin="anonymous"></script>
+<footer id="footer"></footer>
+<script src="../../global/data.js"></script><script src="https://kit.fontawesome.com/b457945b5f.js" crossorigin="anonymous"></script>
 <script>
 const pwdText=['function pwd() {',
                'if (document.getElementById("pwd").value=="SqL1n") {',
