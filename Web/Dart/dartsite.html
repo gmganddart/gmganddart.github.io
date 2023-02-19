@@ -1,27 +1,21 @@
 <!DOCTYPE html>
 <html>
    <head>
-      <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
-      <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+      <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" /><script defer src="https://pyscript.net/latest/pyscript.js"></script>
       <title>Dart site</title>
-      <link rel="stylesheet" href="../../global/g.css">
-      <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
-   </head>
-   <style>
-    body {margin:0;background-image: url("images/background1.jpg");background-repeat: no-repeat;background-size: cover;}
- </style>
+      <link rel="stylesheet" href="../../global/g.css"><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+      <style>
+        body {margin:0;background-image: url("images/background1.jpg");background-repeat: no-repeat;background-size: cover;}
+      </style> 
+    </head>
  <body>
+  <nav id="navigbar"></nav>
     <py-script>
         print('hello world')
     </py-script>
-    <nav id="navigbar"></nav>
     <h1 style="color: blueviolet; text-align: center;font: lighter;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Welcome to <br>Dart's Palace</h1>
-<p id="requestExample"></p>
  </body>
-
-
-
-<script src="../../global/data.js"></script><script src="https://kit.fontawesome.com/b457945b5f.js" crossorigin="anonymous"></script>
+<footer id="footer"></footer>
 <script>
 fetch("http://thorpepark.com")
     .then(response => {
