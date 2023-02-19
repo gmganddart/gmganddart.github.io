@@ -25,7 +25,8 @@ document.getElementById("navigbar").innerHTML =
     <li class="dropdown-sub">
       <a>Personal</a>
       <ul class="dropdown-sub-list">
-      <li><a href="https://gmganddart.github.io/Web/Gmg/Main.html">Gmg</a></li>
+        <li><a href="https://gmganddart.github.io/Web/Gmg/Main.html">Gmg</a></li>
+        <li><a href="https://gmganddart.github.io/Web/Dart/dartsite.html">Dart</a></li>
       </ul></li>
   </ul>
   </li>
