@@ -1,6 +1,6 @@
 document.getElementById("footer").innerHTML = 
 `
-<style>body {background-color: #111;}</style>
+<style></style>
 <div class="footer-basic">
   <footer>
     <ul class="list-inline">
