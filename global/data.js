@@ -18,7 +18,7 @@ document.getElementById("navigbar").innerHTML =
 `
 <div class="nav_ul">
   <ul id="nav_ul">
-  <a href="https://gmganddart.github.io/index.html"><i class="fa fa-home" style="font-size:20px;color:white"></i></a>
+  <a href="https://gmganddart.github.io/index.html"><i class="fa fa-home" style="font-size:20px;color:black"></i></a>
   <li class="dropdown">
   <a>Main Webs</a>
   <ul class="dropdown-content">
