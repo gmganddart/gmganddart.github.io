@@ -1,0 +1,507 @@
+{
+    "routes": [
+        {
+            "1": {
+                "operator":"Go North West",
+                "dest":"Manchester City Centre - Manchester Airport",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@gnwbus",
+                "circular":"No"
+            }
+        },
+        {
+            "2": {
+                "operator":"Go North West",
+                "dest":"Manchester City Centre - Shudehill",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@gnwbus",
+                "circular":"Yes"
+            }
+        },
+        {
+            "3": {
+                "operator":"Stagecoach Manchester",
+                "dest":"Wigan - Kitt Green",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM",
+                "circular":"Yes"
+            }
+        },
+        {
+            "4": {
+                "operator":"Stagecoach Manchester",
+                "dest":"Wigan - Pemberton",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM",
+                "circular":"Yes"
+            }
+        },
+        {
+            "5": {
+                "operator":"Stagecoach Manchester",
+                "dest":"Wigan - Swinley",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM",
+                "circular":"Yes"
+            }
+        },
+        {
+            "6": {
+                "operator":"Stagecoach Manchester",
+                "dest":"Wigan - Beech Hill",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM",
+                "circular":"Yes"
+            }
+        },
+        {
+            "7": {
+                "operator":"Stagecoach Manchester",
+                "dest":"Wigan - Bolton & Ashton - Stockport",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM",
+                "circular":"Yes"
+            }
+        },
+        {
+            "8": {
+                "operator":"Stagecoach Manchester & Diamond Bus North West",
+                "dest":"Wigan - Leigh & Manchester Shudehill - Bolton",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM & @DiamondBusNW",
+                "circular":"No"
+            }
+        },
+        {
+            "9": {
+                "operator":"Stagecoach Manchester",
+                "dest":"Wigan - Higher Folds",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM",
+                "circular":"No"
+            }
+        },
+        {
+            "10": {
+                "operator":"Stagecoach Manchester & Arriva North West",
+                "dest":"Wigan - Leigh & Brookhouse Estate - Manchester Shudehill",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM & @arrivanorthwest",
+                "circular":"No"
+            }
+        },
+        {
+            "10A": {
+                "operator":"Stagecoach Manchester",
+                "dest":"Wigan - Leigh via Golborne",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM",
+                "circular":"No"
+            }
+        },
+        {
+            "11": {
+                "operator":"Stagecoach Manchester",
+                "dest":"Stockport - Altrincham",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM",
+                "circular":"No"
+            }
+        },
+        {
+            "15": {
+                "operator":"Stagecoach Manchester",
+                "dest":"Flixton - Piccadilly Gardens",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM",
+                "circular":"No"
+            }
+        },
+        {
+            "17": {
+                "operator":"Go North West",
+                "dest":"Manchester Shudehill - Norden via Middleton",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@gnwbus",
+                "circular":"No"
+            }
+        },
+        {
+            "17A": {
+                "operator":"Go North West",
+                "dest":"Manchester Shudehill - Rochdale via Stakehill",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@gnwbus",
+                "circular":"No"
+            }
+        },        {
+            "18": {
+                "operator":"Go North West & Arriva Bus",
+                "dest":"Manchester Royal Infirmary - Langley via Middleton & Eccles - Manchester Airport via Trafford Park",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@gnwbus & @arrivanorthwest",
+                "circular":"No"
+            }
+        },
+        {
+            "19": {
+                "operator":"Arriva Bus",
+                "dest":"Altrincham - Wythenshawe via Sale",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@arrivanorthwest",
+                "circular":"No"
+            }
+        },
+        {
+            "20": {
+                "operator":"Diamond Bus North West",
+                "dest":"Bolton - Trafford Centre via Deane",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@DiamondBusNW",
+                "circular":"No"
+            }
+        },
+        {
+            "21": {
+                "operator":"Diamond Bus North West",
+                "dest":"Agecroft - Trafford Centre via Swinton",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@DiamondBusNW",
+                "circular":"No"
+            }
+        },
+        {
+            "22": {
+                "operator":"Diamond Bus North West",
+                "dest":"Bolton - Trafford Centre via Great Lever",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@DiamondBusNW",
+                "circular":"No"
+            }
+        },
+        {
+            "23": {
+                "operator":"Stagecoach Manchester",
+                "dest":"Stockport - Trafford Centre via Urmston",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM",
+                "circular":"No"
+            }
+        },
+        {
+            "25": {
+                "operator":"Stagecoach Manchester",
+                "dest":"Stockport - Trafford Centre via Heaton Moor",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM",
+                "circular":"No"
+            }
+        },
+        {
+            "29": {
+                "operator":"Diamond Bus North West",
+                "dest":"The Lowry - Boothstown via Walkden",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@DiamondBusNW",
+                "circular":"No"
+            }
+        },
+        {
+            "33": {
+                "operator":"Go North West",
+                "dest":"Manchester Shudehill - Worsley via Eccles",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@gnwbus",
+                "circular":"No"
+            }
+        },
+        {
+            "33B": {
+                "operator":"Go North West",
+                "dest":"Manchester Shudehill - Brookhouse via Ordsall",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@gnwbus",
+                "circular":"No"
+            }
+        },
+        {
+            "34": {
+                "operator":"Stagecoach Manchester & Diamond Bus North West",
+                "dest":"Bryn - Piccadilly Gardens via Leigh & Worsley - Piccadilly Gardens via Pendleton",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM & @DiamondBusNW",
+                "circular":"No"
+            }
+        },
+        {
+            "34A": {
+                "operator":"Stagecoach Manchester",
+                "dest":"Piccadilly Gardens - Worsley via Pendleton",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM",
+                "circular":"No"
+            }
+        },
+        {
+            "36": {
+                "operator":"Diamond Bus North West",
+                "dest":"Bolton - Piccadilly Gardens via Peel",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@DiamondBusNW",
+                "circular":"No"
+            }
+        },
+        {
+            "37": {
+                "operator":"Diamond Bus North West",
+                "dest":"Bolton - Piccadilly Gardens via Swinton",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@DiamondBusNW",
+                "circular":"No"
+            }
+        },
+        {
+            "38": {
+                "operator":"Stagecoach Manchester",
+                "dest":"Logistics North - Piccadilly Gardens via Salford",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM",
+                "circular":"No"
+            }
+        },
+        {
+            "41": {
+                "operator":"Go North West",
+                "dest":"Middleton - Sale via Bowker Vale and Didsbury",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@gnwbus",
+                "circular":"No"
+            }
+        },
+        {
+            "42": {
+                "operator":"Stagecoach Manchester",
+                "dest":"Stockport - Piccadilly Gardens via Didsbury",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM",
+                "circular":"No"
+            }
+        },
+        {
+            "42A": {
+                "operator":"Stagecoach Manchester",
+                "dest":"North Reddish - Piccadilly Gardens via Heaton Chapel",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM",
+                "circular":"No"
+            }
+        },
+        {
+            "42B": {
+                "operator":"Stagecoach Manchester",
+                "dest":"Woodford - Piccadilly Gardens via Cheadle x Cheadle Hulme",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM",
+                "circular":"No"
+            }
+        },
+        {
+            "42C": {
+                "operator":"Stagecoach Manchester",
+                "dest":"Handforrth Dean - Piccadilly Gardens via Cheadle",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM",
+                "circular":"No"
+            }
+        },
+        {
+            "43": {
+                "operator":"Stagecoach Manchester",
+                "dest":"Manchester Airport - Piccadilly Gardens via Wythenshawe",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM",
+                "circular":"No"
+            }
+        },
+        {
+            "44": {
+                "operator":"Little Gem",
+                "dest":"John Leigh Park - Piccadilly Gardens via Altrincham",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@littlegembus",
+                "circular":"No"
+            }
+        },
+        {
+            "50": {
+                "operator":"Stagecoach Manchester",
+                "dest":"Media City (Salford Quays) - East Didsbury via Salford",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM",
+                "circular":"No"
+            }
+        },
+        {
+            "51": {
+                "operator":"Stagecoach Manchester",
+                "dest":"The Lowry - East Didsbury via Salford",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM",
+                "circular":"No"
+            }
+        },
+        {
+            "52": {
+                "operator":"Go North West",
+                "dest":"Failsworth - Trafford Centre via Moston",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@gnwbus",
+                "circular":"No"
+            }
+        },
+        {
+            "53": {
+                "operator":"Go North West",
+                "dest":"Cheetham Hill - Pendleton via Crumpsall",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@gnwbus",
+                "circular":"No"
+            }
+        },
+        {
+            "56": {
+                "operator":"Stagecoach Manchester",
+                "dest":"Manchester Shudehill - Crumpsall via Higher Blackley",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM",
+                "circular":"Yes"
+            }
+        },
+        {
+            "57": {
+                "operator":"First Greater Manchester",
+                "dest":"Oldham - Higginshaw via Rushcroft",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@FirstManchester",
+                "circular":"Yes"
+            }
+        },
+        {
+            "59": {
+                "operator":"First Greater Manchester",
+                "dest":"Oldham Mumps - Piccadilly Gardens via Middleton",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@FirstManchester",
+                "circular":"No"
+            }
+        },
+        {
+            "65": {
+                "operator":"Diamond Bus North West",
+                "dest":"Eccles - Patricroft via Monton",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@DiamondBusNW",
+                "circular":"Yes"
+            }
+        },
+        {
+            "66": {
+                "operator":"Diamond Bus North West",
+                "dest":"Eccles - Prestwich via Swinton",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@DiamondBusNW",
+                "circular":"No"
+            }
+        },
+        {
+            "67": {
+                "operator":"Go North West",
+                "dest":"Manchester Shudehill - Glaze Estate via Salford and Cadishead",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@gnwbus",
+                "circular":"No"
+            }
+        },
+        {
+            "67A": {
+                "operator":"Go North West",
+                "dest":"Manchester Shudehill - Glaze Estate via Pendleton and Cadishead",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@gnwbus",
+                "circular":"No"
+            }
+        },
+        {
+            "70": {
+                "operator":"Diamond Bus North West",
+                "dest":"Eccles - Pendleton via Seedley",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@DiamondBusNW",
+                "circular":"No"
+            }
+        },
+        {
+            "74": {
+                "operator":"Stagecoach Manchester",
+                "dest":"Hollinwood - Piccadilly Gardens via Woodhouses, Pendleton, Newton Heath",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM",
+                "circular":"No"
+            }
+        },
+        {
+            "75": {
+                "operator":"Diamond Bus North West",
+                "dest":"Pendleton - Irlands oth Height via Agecroft",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@DiamondBusNW",
+                "circular":"Yes"
+            }
+        },
+        {
+            "76": {
+                "operator":"Stagecoach Manchester",
+                "dest":"Oldham Mumps - Picadilly Gardens via Hollinwood",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM",
+                "circular":"No"
+            }
+        },
+        {
+            "76A": {
+                "operator":"Stagecoach Manchester",
+                "dest":"Oldham Mumps - Picadilly Gardens via Limeside",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM",
+                "circular":"No"
+            }
+        },
+        {
+            "79": {
+                "operator":"Diamond Bus North West",
+                "dest":"Pendleton - Stretford via Old Trafford",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@DiamondBusNW",
+                "circular":"No"
+            }
+        },
+        {
+            "81": {
+                "operator":"Diamond Bus North West",
+                "dest":"Oldham - Picadilly Gardens via Moston, White Gate",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@DiamondBusNW",
+                "circular":"No"
+            }
+        },
+        {
+            "82": {
+                "operator":"Diamond Bus North West",
+                "dest":"Pendleton - Stretford via Old Trafford",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@DiamondBusNW",
+                "circular":"No"
+            }
+        }
+    ]
+}
