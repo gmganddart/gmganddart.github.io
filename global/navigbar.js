@@ -9,7 +9,7 @@ document.getElementById("navigbar").innerHTML = `
       <a>Personal</a>
       <ul class="dropdown-sub-list">
         <li><a href="https://gmganddart.github.io/Web/Gmg/Main.html">Home Page</a></li>
-        <li><a href="https://gmganddart.github.io/Web/Dart/dartsite.html">Dart</a></li>
+        <li><a href="https://gmganddart.github.io/Web/Dart/dartsiteNEW.html">Dart</a></li>
       </ul></li>
   </ul>
   </li>
