@@ -13,7 +13,7 @@ document.getElementById("navigbar").innerHTML = `
             <a href="#" class="navbar-link">Personal</a>
             <ul class="dropdown-menu">
             <li><a href="https://gmganddart.github.io/Web/Gmg/Main.html" class="dropdown-link">Gmg</a></li>
-            <li><a href="https://gmganddart.github.io/Web/Dart/dartsitev2.html" class="dropdown-link">Dart</a></li>
+            <li><a href="https://gmganddart.github.io/Web/Dart/dartsite.html" class="dropdown-link">Dart</a></li>
             </ul>
         </li>
 

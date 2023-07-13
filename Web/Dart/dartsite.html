@@ -1,51 +1,39 @@
-<html>
-    <title>My portifolio</title>
+<!DOCTYPE html>
+
 <head>
-    <style>
-
-
-        .fadebanner {
-            background-image: linear-gradient(90deg, rgb(0, 191, 255),rgb(143, 14, 213));
-            padding: 20px;
-
-            font-family: Arial, Helvetica, sans-serif;
-
-            color: aliceblue;
-            transition: 2s ease 
-        }
-        .fadebanner:hover{
-            opacity: 1;
-            background-color: rgb(234, 91, 212);
-            transform: scale(0.9)
-
-        }
-        .box {
-            background-image:linear-gradient(120deg,rgb(27, 134, 184),rgb(79, 187, 211));
-            padding:100px;
-            margin-bottom: 300px;
-            margin-left: 700px;
-            position:absolute;
-            border-radius: 15px;
-            font-family: Arial, Helvetica, sans-serif;
-            color: transparent;
-            transition:0.5s
-            
-        }
-        .box:hover{
-            color:whitesmoke
-        }
-
-
-    </style>
-
+    <title>Dart Site</title>
+    <link href="styling.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    
 </head>
 
-<body style="background-image: linear-gradient(rgb(23, 20, 20),rgb(38, 11, 63));">
-    <h1 class="fadebanner"> Welcome to My Portifolio</h1>>
-    <p1 class="box">This is a magic card</p1>
+<body>
+    <div class="bannercontainer">
+        <div class="sidebar">
+            <ul>
+                <li><a href="#"><i class="fas fa-home" style="color: black;"></i></a></li>
 
-</body>
+            </ul>
+        </div>
+        <h1 class="banner">Dart <br> Site</h1>
+        <!-- To remove the sale, simply add a comment around it. To edit the sale, edit the message inebetween <marquee> --> 
+       
+    </div>
 
-</nav>
+<p class="paragdart">I am dart</p>
 
-</html>
+<section class="container">
+    <div class="slider-wrapper">
+        <div class="slider">
+            <img id="slide-1" src="images/mainpic.png">
+            <img id="slide-2" src="images/img2.png">
+            <img id="slide-3" src="images/img3.png">
+        </div>
+        <div class="slider-nav">
+            <a href="#slide-1"></a>
+            <a href="#slide-2"></a>
+            <a href="#slide-3"></a>
+        </div>
+    </div>
+</section>
