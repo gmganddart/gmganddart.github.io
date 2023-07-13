@@ -112,3 +112,12 @@ li a{
 body {
     background-color: white;
 }
+
+.icon {
+    padding:10px;
+    background-color:black;
+    color:#fff;
+    box-shadow:2px 2px 2px #00000080, 10px 1px 12px #00000080
+
+
+}
