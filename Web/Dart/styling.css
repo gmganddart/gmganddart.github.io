@@ -1,6 +1,5 @@
 .bannercontainer {
     position: relative;
-
 }
 
 .banner {
@@ -15,9 +14,7 @@
     transition:ease-in  0.5s;
 }
 .banner:hover{
-    
-    background-image: linear-gradient(90deg,rgb(225, 3, 225),rgb(174, 227, 234));
-    
+    background-image: linear-gradient(90deg,rgb(225, 3, 225),rgb(174, 227, 234));  
 }
 
 .banner .icon {
@@ -41,7 +38,6 @@ li {
 li a{
     color: white;
     font-size: 18px;
-    
     margin-right: 25px;
 }
 
@@ -59,7 +55,6 @@ li a{
 }
 .paragdart:hover{
     transform: scale(0);
-
 }
 
 .container {
@@ -112,4 +107,8 @@ li a{
 
 .slider-nav a:hover {
     opacity: 1;
+}
+
+body {
+    background-color: white;
 }
