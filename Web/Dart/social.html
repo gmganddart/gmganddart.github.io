@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Dart Site</title>
-        <link href="styling.css" rel="stylesheet" type="text/css">
-        <link href="../../global/g.css" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-        <script src="https://kit.fontawesome.com/524f9fab01.js" crossorigin="anonymous"></script>
+<!DOCTYPE html>     
     </head>
-    <body>
+    <body class="bod">
         <div id="navigbar"></div>
         <div class="bannercontainer">
             <div class="sidebar">
@@ -15,7 +8,17 @@
                     <li><a href="dartsite.html"><i class="fas fa-home" style="color: black;"></i></a></li>
                     <li><a href="social.html"><i class="fa-brands fa-twitter" style="color:black"></i></a></li>
                     <li><a href="tools.html"><i class="fa-solid fa-toolbox" style="color: black;"></i></a></li>
+                    <li><i class="fa-solid fa-moon" id="icon"></i></li>
                 </ul>
+                <script>
+
+                    var icon = document.getElementById("icon");
+                
+                    icon.onclick = function(){
+                        document.body.classList.toggle("dark-theme")
+                    }
+                
+                </script>
             </div>
             <h1 class="banner">Dart <br> Site</h1>
             <!-- To remove the sale, simply add a comment around it. To edit the sale, edit the message inebetween <marquee> -->        
