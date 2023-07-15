@@ -5,7 +5,7 @@
 .banner {
     position: relative;
     background-image: var(--banner-color);
-    color: var(--text-color);
+    color: var(--whitetopink);
     padding: 100px;
     letter-spacing: 15px;
     text-align: 20px;
@@ -26,7 +26,7 @@
 }
 
 .icons{
-    color:var(--text-color);
+    color:var(--whitetopink);
 }
 
 
@@ -135,6 +135,7 @@ body {
     --text-color: rgb(1, 1, 1)000;
     --banner-color: linear-gradient(90deg,rgb(225, 3, 225),rgb(174, 227, 234));
     --banner-hover: linear-gradient(90deg,rgb(225, 3, 225),rgb(174, 227, 234));
+    --whitetopink:#fff
 }
 
 .dark-theme {
@@ -142,6 +143,7 @@ body {
     --text-color: #ffaefb;
     --banner-color: linear-gradient(90deg,rgb(39, 39, 39),rgb(44, 50, 50));
     --banner-hover: linear-gradient(90deg,rgb(39, 39, 39),rgb(44, 50, 50));
+    --whitetopink: #ffaefb
     
 }
 
@@ -149,3 +151,50 @@ body {
     background-color: var(--primary-color)
 }
 
+.loader{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    background: #fff;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);;
+}
+.loader::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg,rgb(224, 186, 224),rgb(234, 73, 234),rgb(161, 6, 204),rgb(90, 4, 194),rgb(9, 157, 187),rgb(162, 104, 234),rgb(224, 186, 224));
+    animation: animate 20s linear infinite;
+    background-size: 500%;
+    
+}
+.loader::after{
+    content: '';
+    position:absolute;
+    inset:0;
+    background: linear-gradient(90deg,rgb(224, 186, 224),rgb(234, 73, 234),rgb(161, 6, 204),rgb(90, 4, 194),rgb(9, 157, 187),rgb(162, 104, 234),rgb(224, 186, 224));
+    animation: animate 20s linear infinite;
+    background-size:500%;
+    filter: blur(20px)
+}
+@keyframes animate{
+    0%{
+        background-position:0 0;
+
+    }
+    0%{
+        background-position: 500%, 0
+    }
+}
+
+.card {
+    background-color: #ffaefb;
+    padding:20px;
+    position: relative;
+    border-radius:1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color:var(--primary-color);
+    margin-left: 30%;
+    max-width: 500px;
+    font-size:20px;
+
+}
