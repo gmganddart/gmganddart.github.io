@@ -12,14 +12,8 @@
       </style>
    </head>
 <body>
-<nav id="navigbar"></nav>
+<div id="navigbar"></div>
 <div style="overflow:auto;font-family: 'Lato' sans-serif;font-size:xx-large">
-<table width="100%">
-   <tr>
-      <th>Websites</th>
-   </tr>
-   <tr>
-      <td>
          <button class="button" onclick="window.location='https:\/\/www.compresss.com/compress-ogg.html'">.ogg Compressor</button>
          <button class="button" onclick="window.location='https:\/\/deluuxe.dev/streamlinks.html'">Radio Links</button>
          <button class="button" onclick="window.location='https:\/\/gaming.stackexchange.com/questions/376522/how-to-add-names-and-scores-in-tellraw'">Tellraw Scoreboard Objectives</button>
@@ -27,34 +21,7 @@
          <button class="button" onclick="window.location='https:\/\/javascriptobfuscator.com/Javascript-Obfuscator.aspx'">Javascript Encryptor</button>
          <button class="button" onclick="window.location='https:\/\/tfgm.com/public-transport/bus/stops/1800NB07651/59'">59 Exp Times (To Col)</button>
          <button class="button" onclick="window.location='https:\/\/tfgm.com/public-transport/bus/stops/1800NB00771/59'">59 Exp Times (To HP)</button>
-      </td>
-   </tr>
-</table>
-<p id="pwd">View current DSS password</p>
-<p style="font-size:small">function pwd() {<br> 
-if (document.getElementById("pwd").value=="PASSWORD_VALUE") {<br> 
-if (document.getElementById("loc").value=="admin") window.location="Admin/secret.html"<br> 
-else if (document.getElementById("loc").value=="priv") window.location="Priv/p.html"<br> 
-}<br> 
-else alert("This password is incorrect. Try again.")}<br>   
-</p>
-<button onclick="myFunction()">Copy Code</button>
-</div>
 <footer id="footer"></footer>
-<script src="https://kit.fontawesome.com/b457945b5f.js" crossorigin="anonymous"></script><script src="../../global/navigbar.js"></script><script src="../../global/footer.js"></script>
-<script>
-const pwdText=['function pwd() {',
-               'if (document.getElementById("pwd").value=="SqL1n") {',
-                  'if (document.getElementById("loc").value=="admin") window.location="Admin/secret.html"',
-                  'else if (document.getElementById("loc").value=="priv") window.location="Priv/p.html"',
-               '}',
-               'else alert("This password is incorrect. Try again.")}'].join('\n')
-function myFunction() {
-  navigator.clipboard.writeText(pwdText)
-}
-document.getElementById("pwda").innerHTML=PrivAdmin_pwd
-document.getElementById('pwd').setAttribute("title", PrivAdmin_pwd);
-</script>
 <script src="../../global/data.js"></script>
 </body>
 </html>
