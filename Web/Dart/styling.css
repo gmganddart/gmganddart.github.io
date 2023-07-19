@@ -36,11 +36,11 @@
     right: 10px;
     z-index: 2; /* Ensure the sidebar is above the banner */
 }
-li {
+.sidebar li {
     list-style: none;
     display: inline-block;
 }
-li a{
+.sidebar li a{
     color: white;
     font-size: 18px;
     margin-right: 25px;

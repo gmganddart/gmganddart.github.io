@@ -6,6 +6,7 @@ document.getElementById("navigbar").innerHTML = `
     ::-webkit-scrollbar-thumb:hover {background: rgb(0, 53, 96);}
     * {box-sizing: border-box;}
 </style>
+<script src="https://kit.fontawesome.com/b457945b5f.js" crossorigin="anonymous"></script>
 <nav class="navbar">
     <ul class="navbar-list">
         <li class="navbar-item">
@@ -21,30 +22,13 @@ document.getElementById("navigbar").innerHTML = `
     </li>
 
     <li class="navbar-item">
-        <a href="#" class="navbar-link">Databases</a>
+        <a href="#" class="navbar-link">Information</a>
         <ul class="dropdown-menu">
-        <li><a href="https://gmganddart.github.io/Web/databases/example.json" class="dropdown-link">Example.json</a></li>
+        <li><a href="https://gmganddart.github.io/Web/Dart/memories.html" class="dropdown-link">Memories</a></li>
+        <li><a href="https://gmganddart.github.io/Web/Dart/social.html" class="dropdown-link">Socials</a></li>
+        <li><a href="https://gmganddart.github.io/Web/Dart/tools.html" class="dropdown-link">Tools</a></li>
         </ul>
     </li>
     </ul>
 </nav>
-`
-
-document.getElementById("footer").innerHTML = `
-<style>
-body {background-color: #111;}
-/*::-webkit-scrollbar {width:1px}*/
-@media screen and (max-width: 600px) {.column {width: 100%;height: auto;}}
-</style>
-<div class="footer-basic">
-  <footer>
-    <ul class="list-inline">
-        <li class="list-inline-item"><a href="https://dsstlevel.github.io/index.html">Home</a></li>
-        <li class="list-inline-item"><a href="#">Top of Page</a></li>
-
-    </ul>
-  </footer>
-</div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script>function autoRefresh() {window.location = window.location.href;}setInterval('autoRefresh()', 600000);</script>
 `

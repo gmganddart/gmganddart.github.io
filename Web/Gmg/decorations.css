@@ -1,0 +1,11 @@
+.side-content {
+    width:17%;
+    height:56vh;
+    background-color: white;
+}
+
+.main-content {
+    background-color: green;
+    height:56vh;
+    width:83%
+}
