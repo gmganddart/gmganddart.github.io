@@ -9,23 +9,14 @@ document.getElementById("navigbar").innerHTML = `
 <nav class="navbar">
     <ul class="navbar-list">
         <li class="navbar-item">
-            <a href="#" class="navbar-link">Personal</a>
-            <ul class="dropdown-menu">
-            <li><a href="https://gmganddart.github.io/Web/Gmg/Main.html" class="dropdown-link">Gmg</a></li>
-            <li><a href="https://gmganddart.github.io/Web/Dart/dartsite.html" class="dropdown-link">Dart</a></li>
-            </ul>
+            <a href="https://gmganddart.github.io/Web/Dart/dartsite" class="navbar-link">Dart</i></a>
         </li>
-
-    <li class="navbar-item">
-        <a href="https://gmganddart.github.io" class="navbar-link"><i class="fa fa-home" style="font-size:20px;color:rgb(0, 0, 0)"></i></a>
-    </li>
-
-    <li class="navbar-item">
-        <a href="#" class="navbar-link">Databases</a>
-        <ul class="dropdown-menu">
-        <li><a href="https://gmganddart.github.io/Web/databases/example.json" class="dropdown-link">Example.json</a></li>
-        </ul>
-    </li>
+        <li class="navbar-item">
+            <a href="https://gmganddart.github.io/Web/Gmg/Main" class="navbar-link">Gmg</a>
+        </li>
+        <li class="navbar-item">
+            <a href="https://gmganddart.github.io" class="navbar-link"><i class="fa fa-home"></i></a>
+        </li>
     </ul>
 </nav>
 `

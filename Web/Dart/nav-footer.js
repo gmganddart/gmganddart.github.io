@@ -1,9 +1,5 @@
 document.getElementById("navigbar").innerHTML = `
 <style>
-    ::-webkit-scrollbar {width: 5px;}
-    ::-webkit-scrollbar-track {background: black;}
-    ::-webkit-scrollbar-thumb {background: rgb(0, 51, 128);}
-    ::-webkit-scrollbar-thumb:hover {background: rgb(0, 53, 96);}
     * {box-sizing: border-box;}
 </style>
 <script src="https://kit.fontawesome.com/b457945b5f.js" crossorigin="anonymous"></script>

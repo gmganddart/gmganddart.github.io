@@ -9,3 +9,65 @@
     height:56vh;
     width:83%
 }
+
+.subnavbar {
+    background-image:linear-gradient(45deg, #92d255, #5ec1ff);
+    text-align:center;
+}
+  
+.subnavbar-list {
+    display: inline-flex;
+    list-style-type: none;
+    font-size: large;
+    font-family: "Gill Sans";
+    margin: 15px;
+}
+  
+.subnavbar-item {
+    position: relative;
+}
+  
+.subnavbar-link {
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+  
+.subnavbar-link:hover {
+    color: rgb(35, 108, 124);
+    transition: 0.5s;
+}
+.subnavbar-link:not(:hover) {
+    color: rgb(47, 0, 255);
+    transition: 0.5s;
+}
+  
+  .subdropdown-menu {
+    text-align:center;
+    background-color: #6d8afd;
+    display: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    left:auto;
+    width: 200px;
+  }
+  
+  .subdropdown-link {
+    color: #333;
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 100%;
+  }
+  
+  .subdropdown-link:hover {
+    background-color: aquamarine;
+  }
+  
+  .subnavbar-item:hover .subdropdown-menu {
+    display: block;
+  }
