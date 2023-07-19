@@ -14,7 +14,7 @@ document.getElementById("subnavigbar").innerHTML = `
             <a href="https://gmganddart.github.io/Web/Gmg/Main" class="subnavbar-link"><i class="fa fa-home"></i></a>
         </li>
         <li class="subnavbar-item">
-            <a href="#" class="subnavbar-link">Databases</a>
+            <a href="#" class="subnavbar-link">Projects</a>
             <ul class="subdropdown-menu">
                 <li><a href="https://gmganddart.github.io/Web/Gmg/buses.json" class="subdropdown-link">Buses</a></li>
             </ul>
