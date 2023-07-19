@@ -1,13 +1,30 @@
 .side-content {
     width:17%;
-    height:56vh;
     background-color: white;
+    color: rgb(0, 0, 0);
 }
 
 .main-content {
     background-color: green;
-    height:56vh;
     width:83%
+}
+
+.side-content a {
+    background-color: blue;
+    color:gold;
+    font-size:x-large;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Comic Sans MS';
+    display: block;
+    width:75%;
+    border-radius:15px;
+}
+
+.side-content a:hover{
+    background-color: rgb(7, 255, 180);
+    transition:0.5s
 }
 
 .subnavbar {
