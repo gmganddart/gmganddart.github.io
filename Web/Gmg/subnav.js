@@ -5,9 +5,9 @@ document.getElementById("subnavigbar").innerHTML = `
 <nav class="subnavbar">
     <ul class="subnavbar-list">
         <li class="subnavbar-item">
-            <a href="#" class="subnavbar-link">About Me</a>
+            <a href="#" class="subnavbar-link">Null</a>
             <ul class="subdropdown-menu">
-                <li><a href="https://gmganddart.github.io/Web/Gmg/Buses/buses" class="subdropdown-link">Bus Photography</a></li>
+            
             </ul>
         </li>
         <li class="subnavbar-item">
@@ -16,7 +16,9 @@ document.getElementById("subnavigbar").innerHTML = `
         <li class="subnavbar-item">
             <a href="#" class="subnavbar-link">Projects</a>
             <ul class="subdropdown-menu">
-                <li><a href="https://gmganddart.github.io/Web/Gmg/buses.json" class="subdropdown-link">Buses</a></li>
+                <li><a href="https://gmganddart.github.io/Web/Gmg/Buses/home" class="subdropdown-link">Buses</a></li>
+                <li><a href="https://gmganddart.github.io/Web/Gmg/themeparks" class="subdropdown-link">Theme Parks</a></li>
+                <li><a href="https://gmganddart.github.io/Web/Gmg/dartstudios" class="subdropdown-link">Dart Studios</a></li>
             </ul>
         </li>
     </ul>
