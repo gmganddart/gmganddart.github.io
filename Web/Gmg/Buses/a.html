@@ -18,6 +18,7 @@ body.dark-mode {
     background-color: var(--background-color-dark);
     color: var(--text-color-dark);
 }
+
     </style>
     <title>Dark Mode Example</title>
     <link rel="stylesheet" href="styles.css">
@@ -27,8 +28,14 @@ body.dark-mode {
     <label for="dark-mode-toggle">Dark Mode:</label>
     <input type="checkbox" id="dark-mode-toggle">
 </body>
-<script src="script.js"></script>
 <script>
-    localStorage.removeItem("darkModePreferred");
+    localStorage.setItem('DarkMode', true)
+    var drkmd = localStorage.getItem("DarkMode")
+    
+
+    if (drkmd) {
+        let body = document.body
+        body.classList.add("dark-mode")
+    }
 </script>
 </html>
