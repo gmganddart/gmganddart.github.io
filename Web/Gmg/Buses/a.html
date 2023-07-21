@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        :root {
+    --background-color-light: #ffffff;
+    --text-color-light: #000000;
+    --background-color-dark: #1e1e1e;
+    --text-color-dark: #ffffff;
+}
+
+body {
+    background-color: var(--background-color-light);
+    color: var(--text-color-light);
+}
+
+body.dark-mode {
+    background-color: var(--background-color-dark);
+    color: var(--text-color-dark);
+}
+    </style>
+    <title>Dark Mode Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <label for="dark-mode-toggle">Dark Mode:</label>
+    <input type="checkbox" id="dark-mode-toggle">
+</body>
+<script src="script.js"></script>
+<script>
+    localStorage.removeItem("darkModePreferred");
+</script>
+</html>
