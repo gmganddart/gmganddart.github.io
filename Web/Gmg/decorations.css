@@ -18,6 +18,7 @@
     font-family: 'Comic Sans MS';
     display: block;
     margin-bottom: 10px;
+    text-decoration: none;
 }
 
 .side-content a:hover{
@@ -143,9 +144,9 @@
 .busitem {
   display: flex;
   align-items: center;
-  justify-content: space-between; /* To push the image to the right */
+  justify-content: space-between;
   width: 90%;
-  height: 80px; /* Increase the height to accommodate both h1 and content */
+  height: 80px;
   background-color: rgb(41, 41, 41);
   color: white;
   border-radius: 100px;
@@ -156,6 +157,8 @@
   border-style: solid;
   border-width: 3px;
   margin-bottom: 20px;
+  margin-top:20px;
+  text-decoration: none;
 }
 
 .busitem h1 {
@@ -167,12 +170,6 @@
   margin-bottom: 0;
 }
 
-.busitem .content-wrapper {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-}
-
 .busitem .content {
   font-size: small;
   text-align: left;
@@ -181,7 +178,7 @@
 }
 
 .busitem img {
-  width: 9%;
+  width: 65px;
   margin-right: 100px;
 }
 
