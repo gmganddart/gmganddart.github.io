@@ -1,12 +1,6 @@
-.side-content {
-    width:17%;
-    background-color: rgb(67, 59, 59);
-    color: rgb(0, 0, 0);
-}
-
 .main-content {
     background-color: rgb(28, 35, 44);
-    width:83%
+    width:100%
 }
 
 .side-content a {
@@ -139,6 +133,7 @@
 }
 
 .buscard {
+  text-align: center;
 }
 
 .busitem {
