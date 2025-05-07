@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Plaxton Centro</title>
+      <link rel="stylesheet" href="../../global/g.css">
+      <link rel="stylesheet" href="decorations.css">
+      <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+      <link rel="icon" type="image/x-icon" href="Images/favicon.png">
+      <style>
+         body {
+            text-align: center;
+            margin: 0;
+            background-color: #111;
+            background-image: url("Images/background2.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            color: #fff;
+         }
+
+         .birthday-container {
+            margin-top: 15vh;
+            padding: 40px;
+            background: rgba(0, 0, 0, 0.6);
+            border: 2px solid #ff69b4;
+            border-radius: 20px;
+            display: inline-block;
+            animation: popIn 1s ease-out;
+         }
+
+         h1 {
+            font-size: 3em;
+            color: #FFD700;
+            margin-bottom: 10px;
+         }
+
+         p {
+            font-size: 1.5em;
+            color: #ffccff;
+         }
+
+         @keyframes popIn {
+            0% { transform: scale(0.5); opacity: 0; }
+            100% { transform: scale(1); opacity: 1; }
+         }
+
+         .balloons {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            overflow: hidden;
+         }
+
+         .balloon {
+            position: absolute;
+            bottom: -100px;
+            width: 50px;
+            height: 70px;
+            background: red;
+            border-radius: 50% 50% 50% 50%;
+            animation: rise 8s infinite ease-in;
+         }
+
+         .balloon::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            width: 2px;
+            height: 30px;
+            background: #fff;
+            transform: translateX(-50%);
+         }
+
+         @keyframes rise {
+            0% { transform: translateY(0); opacity: 0.8; }
+            100% { transform: translateY(-120vh); opacity: 0; }
+         }
+
+         /* Random positions and colors for balloons */
+         .balloon:nth-child(1) { left: 10%; background: #ff4d4d; animation-delay: 0s; }
+         .balloon:nth-child(2) { left: 25%; background: #ffcc00; animation-delay: 2s; }
+         .balloon:nth-child(3) { left: 40%; background: #33cc33; animation-delay: 1s; }
+         .balloon:nth-child(4) { left: 60%; background: #3399ff; animation-delay: 3s; }
+         .balloon:nth-child(5) { left: 80%; background: #cc66ff; animation-delay: 1.5s; }
+
+      </style>
+   </head>
+   <body>
+      <div class="balloons">
+         <div class="balloon"></div>
+         <div class="balloon"></div>
+         <div class="balloon"></div>
+         <div class="balloon"></div>
+         <div class="balloon"></div>
+      </div>
+
+      <div class="birthday-container">
+         <h1>🎉 Happy Birthday! 🎂</h1>
+         <p>Wishing you a day filled with love, laughter, and lots of cake!</p>
+      </div>
+   </body>
+</html>
